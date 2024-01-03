@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="SignIn">
+      <form action="home.html" class="SignInForm" name="form" onsubmit="return validated()">
+        <div class="head">
+        <h2 class="head-mes">Welcome Back!</h2>
+        <p id="login-mes">Login To Your Account</p>
+      </div>
+
+        <div class="signUp-mob">
+          <div class="signUp-mes">
+          <p>Doesn't have an account yet?</p>
+          </div>
+          <div class="sign-up-btn2">
+            <button id="sign-up-mob">Sign Up</button>
+          </div>
+        </div>
+
+
+       <p class="text">Username</p>
+       <div class="input-field">
+        <i class="ri-user-3-fill"></i>
+        <input type="text" name="email" placeholder="username@gmail.com">
+       </div>
+       <div id="email_error">Please fill up your Email or Phone</div>
+
+       <p class="text">Password</p>
+       <div class="input-field">
+        <i class="ri-lock-2-fill"></i>
+        <input type="password" name="password" placeholder="Enter Password">
+       </div>
+    			<div id="pass_error">Please fill up your Password</div>
+
+    <div class="rem-for">
+      <div class="remember">
+      <input type="checkbox" id="remember" name="remember">
+      <label for="remember">Remember Me</label>
+    </div>
+      <div class="forgot-pass">
+        <a href="#">Forgot Password?</a>
+      </div>
+    </div>
+
+    <div class="login-container">
+      <button type="submit" class="login-btn">Login</button>
+    </div>
+    <div class="social">
+    <div class="social-mes">
+      <hr>
+     <p>Create Account With</p>
+    </div>
+      <div class="social-icons">
+        <a href="#"><i class="ri-google-fill"></i></a>
+        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+        <a href="#"><i class="ri-twitter-fill"></i></a>
+        <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+      </div>
+    </div>
+      </form>
+
+      <form action="" class="SignUpForm" name="form">
+          <h2 class="head-register">Register Here!</h2>
+          
+
+        <div class="signUp-mob">
+          <div class="signIn-mes">
+          <p>Already have an account?</p>
+          </div>
+          <div class="sign-in-btn2">
+            <button id="sign-in-mob">Sign Up</button>
+          </div>
+        </div>
+        <p class="text">Name</p>
+        <div class="input-field">
+         <i class="ri-user-3-fill"></i>
+         <input type="text" name="name" placeholder="username">
+        </div>
+        <div id="name_error">Please fill up your Name</div>
+
+
+        <p class="text">Email</p>
+        <div class="input-field">
+        <i class="ri-mail-fill"></i>
+         <input type="text" name="email" placeholder="username@gmail.com">
+        </div>
+        <div id="email_error">Please fill up your Email or Phone</div>
+        
+       <p class="text">Password</p>
+       <div class="input-field">
+        <i class="ri-lock-2-fill"></i>
+        <input type="password" name="password" placeholder="Enter Password">
+       </div>
+       <div id="pass_error">Please fill up your Password</div>
+
+       
+     <div class="acc-container">
+       <input type="submit" id="create-acc" value="Create Account">
+       <p>Or Sign In With Social Platforms</p>
+       <div class="social-icons">
+         <a href="#"><i class="ri-google-fill"></i></a>
+         <a href="#"><i class="ri-facebook-box-fill"></i></a>
+         <a href="#"><i class="ri-twitter-fill"></i></a>
+         <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+       </div>
+     </div>
+       </form>
+    </div>
+
+
+<div class="panel-container">
+  <div class="panel panel-left">
+<div class="content">
+  <h3>Member of Brand?</h3>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis doloribus voluptate quod, iure deserunt delectus.</p>
+  <button class="SignInButton" id="sign-in-btn">Sign In</button>
+</div>
+<img src="3911318.jpg" class="image">
+  </div>
+
+
+  <div class="panel panel-right">
+<div class="content">
+  <h3>New of Brand?</h3>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis doloribus voluptate quod, iure deserunt delectus.</p>
+  <button class="SignInButton" id="sign-up-btn">Sign Up</button>
+</div>
+<img src="5541163.jpg" class="image">
+  </div>
+
+
+
+</div>
+
+
+    
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
